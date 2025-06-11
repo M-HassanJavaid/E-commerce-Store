@@ -41,7 +41,7 @@ body {
 nav {
     padding: 10px;
     display: flex;
-    height: 100px;
+    min-height: 100px;
     justify-content: space-between;
     align-items: center;
     background-color: var(--primary-color);
@@ -332,6 +332,8 @@ nav {
     font-size: var(--standard-font-size);
     padding: 4px 10px;
     margin-block: 10px;
+    background-color: white;
+    color: black;
 }
 
 .CartProductPrice{
